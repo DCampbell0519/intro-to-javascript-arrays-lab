@@ -8,7 +8,7 @@ Exercise 1 has been completed for you:
 
 const foods = [];  
 
-// console.log('Exercise 1 result:', foods);
+console.log('Exercise 1 result:', foods);
 
 /*
 Exercise 2: Add strings to the array
@@ -23,7 +23,7 @@ Complete Exercise 2 in the space below:
 foods.push("pizza", "cheeseburger")
 
 
-// console.log('Exercise 2 result:', foods);
+console.log('Exercise 2 result:', foods);
 
 /*
 Exercise 3: Insert at the beginning
@@ -35,7 +35,7 @@ Complete Exercise 3 in the space below:
 
 foods.unshift("taco")
 
-// console.log('Exercise 3 result:', foods);
+console.log('Exercise 3 result:', foods);
 
 /*
 Exercise 4: Access an array element
@@ -50,7 +50,7 @@ Complete Exercise 4 in the space below:
 
 favFood = foods[1];
 
-// console.log('Exercise 4 result:', favFood);
+console.log('Exercise 4 result:', favFood);
 
 /*
 Exercise 5: Insert an element between two others
@@ -62,7 +62,7 @@ Complete Exercise 5 in the space below:
 
 foods.splice(2, 0, "tofu")
 
-// console.log('Exercise 5 result:', foods);
+console.log('Exercise 5 result:', foods);
 
 /*
 Exercise 6: Replace elements
@@ -74,7 +74,7 @@ Complete Exercise 6 in the space below:
 
 foods.splice(1, 1, "sushi", "cupcake")
 
-// console.log('Exercise 6 result:', foods);
+console.log('Exercise 6 result:', foods);
 
 /*
 Exercise 7: Using the `slice()` method
@@ -221,22 +221,22 @@ const numArrays = [
 
 const numList = numArrays.slice(-1);
 
-console.log('Exercise 13 result:', numList);
+// console.log('Exercise 13 result:', numList);
 
-/*
-Exercise 14: Accessing within nested arrays
+// /*
+// Exercise 14: Accessing within nested arrays
 
-1) Retrieve the number `66` from the `numArrays` array. As part of this process
-   do not alter the original `numArrays` array.
+// 1) Retrieve the number `66` from the `numArrays` array. As part of this process
+//    do not alter the original `numArrays` array.
 
-2) Assign it to a variable called `num`.
+// 2) Assign it to a variable called `num`.
 
-Complete Exercise 14 in the space below:
-*/
+// Complete Exercise 14 in the space below:
+// */
 
 const num = numArrays[2][1];
 
-console.log('Exercise 14 result:', num);
+// console.log('Exercise 14 result:', num);
 
 /*
 Exercise 15: Nested array sum
@@ -251,21 +251,19 @@ Hint: Be sure to declare and initialize the total variable before the iterations
 Complete Exercise 15 in the space below:
 */
 
-const numArrays = [
-	[100, 5, 23],
-	[15, 21, 72, 9],
-	[45, 66],
-	[7, 81, 90]
-];
 
-let total = [];
-for (let i = 0; i < numArrays.length; i++) {
-   for (let j = 0; j < numArrays[i].length; j++) {
-      total = numArrays[i] + numArrays[j];
+let total = 0;
+for (const subArray of numArrays) {
+   for (const num of subArray) {
+      total = num + total;
    }
 }
 
-console.log('Exercise 15 result:\n', total);
+// console.log('Exercise 15 result:\n', total);
+
+
+
+
 
 
 
