@@ -89,7 +89,7 @@ Complete Exercise 7 in the space below:
 
 const yummy = foods.slice(1, 3)
 
-// console.log('Exercise 7 result:', yummy);
+console.log('Exercise 7 result:', yummy);
 
 /*
 Exercise 8: Finding an index
@@ -104,7 +104,7 @@ Complete Exercise 8 in the space below:
 
 const soyIdx = foods.indexOf("tofu")
 
-// console.log('Exercise 8 result:', soyIdx);
+console.log('Exercise 8 result:', soyIdx);
 
 /*
 Exercise 9: Joining elements
@@ -122,7 +122,7 @@ Complete Exercise 9 in the space below:
 
 const allFoods = foods.join(" -> ")
 
-// console.log('Exercise 9 result:', allFoods);
+console.log('Exercise 9 result:', allFoods);
 
 /*
 Exercise 10: Check for an element
@@ -137,7 +137,7 @@ Complete Exercise 10 in the space below:
 
 const hasSoup = foods.includes("soup")
 
-// console.log('Exercise 10 result:', hasSoup);
+console.log('Exercise 10 result:', hasSoup);
 
 /*
 Exercise 11: Odd numbers from an array
@@ -160,7 +160,7 @@ for (let i = 0; i < nums.length; i++) {
    }
 }
 
-// console.log('Exercise 11 result:', odds);
+console.log('Exercise 11 result:', odds);
 
 /*
 Exercise 12: FizzBuzz with arrays
@@ -195,10 +195,10 @@ for (let i = 0; i < nums.length; i++) {
    }
 }
 
-// console.log('Exercise 12 Results:');
-// console.log('  fizz:', fizz);
-// console.log('  buzz:', buzz);
-// console.log('  fizzbuzz:', fizzbuzz);
+console.log('Exercise 12 Results:');
+console.log('  fizz:', fizz);
+console.log('  buzz:', buzz);
+console.log('  fizzbuzz:', fizzbuzz);
 
 /*
 Exercise 13: Retrieve the Last Array
@@ -221,7 +221,7 @@ const numArrays = [
 
 const numList = numArrays.slice(-1);
 
-// console.log('Exercise 13 result:', numList);
+console.log('Exercise 13 result:', numList);
 
 // /*
 // Exercise 14: Accessing within nested arrays
@@ -236,7 +236,7 @@ const numList = numArrays.slice(-1);
 
 const num = numArrays[2][1];
 
-// console.log('Exercise 14 result:', num);
+console.log('Exercise 14 result:', num);
 
 /*
 Exercise 15: Nested array sum
@@ -259,7 +259,7 @@ for (const subArray of numArrays) {
    }
 }
 
-// console.log('Exercise 15 result:\n', total);
+console.log('Exercise 15 result:\n', total);
 
 
 
